@@ -1,0 +1,27 @@
+doctype html 
+html 
+    head 
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        link(rel="stylesheet" href="/css/style.css")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet")
+        //- link(rel='shortcut icon' type='image/png' href='img/assets/favicon.png')
+        title CollinsBuilt Pools
+
+    body 
+        //HEADER
+        include _header
+
+        //CONTENT
+        block content
+            div.div_main
+                div.div_container
+                    h1.h_main CollinsBuilt Pools
+                    h2.h_sub Deland Based Pool Construction Company
+
+        //FOOTER
+        include _footer
+
+        //- script(src='/js/bundle.js')
