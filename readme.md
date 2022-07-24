@@ -1,3 +1,3 @@
-#CollinsBuilt Pools Website
+# CollinsBuilt Pools Website
 
-Setup for new website
+Staging for new website project
